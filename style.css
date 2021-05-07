@@ -1,0 +1,457 @@
+/********* Google Fonts *********/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+
+
+/********* Overall Set Zero *********/
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 'Open Sans',Sans-serif;
+}
+
+
+
+
+
+/********* Header Part Start *********/
+
+header{
+	height : 100vh;
+	background: url(../Files/Cover.png);
+	background-size: cover;
+	background-position: top center;
+	background-repeat: no-repeat;
+
+}
+.top-menu{
+	padding: 25px;
+}
+.navbar-brand{
+	color: white !important;
+	font-size: 40px;
+}
+.nav-link{
+	color: white !important;
+	margin-left: 30px;
+}
+.top-menu ul li a:hover{
+	color: #ffb233 !important;
+	transform: scale(1.3);
+	transition: 0.5s ease-in-out;
+}
+
+/********* Banner info Start *********/
+
+.info{
+	text-align: center;
+	color: white;
+	margin-top: 80px;
+}
+
+.info h1{
+	margin-top: 0px;
+	font-size: 30px;
+	font-weight: 400;
+	letter-spacing: 5px;
+}	
+.info h2{
+	font-size: 55px;
+	font-weight: 600;
+	letter-spacing: 3px;
+}
+.info h4{
+	font-size: 30px;
+	font-weight: 400;
+	letter-spacing: 3px;
+}
+.banner-icon{
+	text-align: center;
+	margin-top: 100px;
+}
+
+.banner-icon i{
+	color: white;
+    font-size: 25px;
+    height: 30px;
+    width: 30px;
+    background-color: #ffb233;
+    text-align: center;
+    line-height: 32px;
+    border-radius: 50%;
+}
+
+
+/********* About Me Section Start *********/
+.about-me{
+	width: 100%;
+	
+}
+
+.user-info{
+	text-align: center;
+	margin: 80px 0px;
+
+}
+
+.user-info .title{
+	font-size: 30px;
+	font-weight: 400;
+	letter-spacing: 5px;
+}
+.user-info .user-img{
+	margin: 20px 0px;
+
+}
+.user-name h4{
+	font-size: 18px;
+	font-weight: 400;
+	letter-spacing: 3px;
+}
+.user-info .user-name{
+	margin: 20px 0px;
+}
+.user-description p{
+	font-size: 15px;
+	margin: 20px 150px;
+}
+.social-icon ul li{
+	list-style: none;
+	display: inline-block;
+}
+.social-icon ul li a i{
+	height: 30px;
+	width: 30px;
+	background-color: #c6c6c5;
+	line-height: 30px;
+	border-radius: 50%;
+	color: white;
+	margin: 15px;
+}
+
+.social-icon ul li a i:hover{
+	background-color: #ffb233;
+	transform: scale(1.3);
+	transition: 0.4s ease-in-out;
+}
+.contact-us{
+	margin: 10px 0px;
+}
+
+.contact-us button{
+
+	padding: 10px 40px;
+	border: 0;
+	border:2px solid #51a351;
+	/* border-color: #51a351; */
+	color: #51a351;
+	background: transparent;
+	border-radius: 6px;
+	letter-spacing: 2px;
+}
+
+/********* Suggest Me Section Start *********/
+
+.suggest-me{
+	width: 100%;
+	background-image: url(../Files/suggest.png);
+	background-size: cover;
+	background-position: top center;
+	background-repeat: no-repeat;
+	
+
+}
+.what-i-suggest{
+	margin: 100px 0px;
+	text-align: center;
+	
+}
+.what-i-suggest h1{
+	color: white;
+	font-size: 30px;
+	font-weight: 400;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+}
+.suggest-icon{
+	margin: 80px 0px;
+}
+.suggest-icon a i{
+	color: white;
+	font-size: 25px;
+	height: 80px;
+	width: 80px;
+	background-color: #ffb233;
+	line-height: 80px;
+	border-radius: 50%;
+}
+.suggest-icon h6{
+	font-size: 18px;
+	font-weight: 400;
+	color: white;
+	letter-spacing: 3px;
+	margin: 20px 0px;
+}
+
+.suggest-icon .col-md-3{
+	padding: 0;
+}
+
+
+
+/********* Counter Section Start *********/
+.project-counter{
+	width: 100%;
+	background: #f3f4ff;
+	height: 300px;
+}
+.counter-inner{
+	padding: 100px 0px;
+
+}
+.counter-inner .col-md-3{
+	text-align: center;
+}
+
+.counter-inner h1{
+	color: #444444;
+	font-size: 40px;
+	font-weight: 700;
+}
+.counter-inner h5{
+	font-size: 15px;
+	font-style: italic;
+	font-weight: 400;
+}
+
+.line{
+	height: 2px;
+	width: 25px;
+	background-color: #ffb233;
+	margin: 10px auto;
+}
+
+
+
+/*  Portfolio Section    */
+.portfolio{
+	width: 100%;
+	background-color: #161616;
+}
+.portfolio-content{
+	margin: 80px 0px 40px 0px;
+	text-align: center;
+}
+.portfolio-content .title h1{
+	color: white;
+	font-size: 30px;
+	font-weight: 400;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+	text-align: center;
+
+}
+.isotope-menu{
+	margin: 40px 0px;
+}
+.portfolio-content .isotope-menu ul li{
+	list-style: none;
+	display: inline-block;
+
+}
+.portfolio-content .isotope-menu ul li a{
+	/*color: #525252;*/
+	color: white;
+	text-decoration-line: none;
+	margin: 0px 10px;
+}
+.gallary{
+	width: 40%;
+	margin:0 auto;
+	display: flex;
+	justify-content: center;
+	
+}
+.gallary .item-1{
+	justify-content: flex-start;
+}
+.gallary .item-2{
+	justify-content: center;
+}
+.gallary .item-3{
+	justify-content: flex-end;
+}
+.gallary img{
+	margin-bottom: 8px;
+	margin-right: 8px;
+}
+.img-1{
+	position: relative;
+}
+.shadow{
+	position: absolute;
+	top:0;
+	left: 0;
+	right: 8px; 
+	bottom: 8px;
+	background: rgba(0,0,0,0.7);
+	display: none;
+}
+.img-1:hover .shadow{
+	display: block;
+
+}
+.shadow-content{
+	padding: 20px 10px;
+	text-align: left;
+}
+.shadow-content .line{
+	margin: 0;
+	
+}
+.shadow-content h4{
+	font-size: 15px;
+	font-weight: 300;
+	color: #ffb233;
+	letter-spacing: 4px;
+}
+.shadow-content p{
+	font-size: 10px;
+	color: white;
+	font-weight: 400;
+	margin: 15px 0;
+}
+.shadow-content .shadow-icon{
+	text-align: center;
+}
+.shadow-content .shadow-icon a i{
+	color: white;
+	font-size: 15px;
+	height: 30px;
+	width: 30px;
+	border: 1px solid white;
+	text-align: center;
+	line-height: 30px;
+	border-radius: 50%;
+
+}
+.portfolio-button{
+	text-align: center;
+	margin-bottom: 40px; 
+}
+.portfolio-button .btn-primary{
+	background: #51a351 !important;
+	color: #fff;
+	border-color: #51a351 !important;
+}
+.portfolio-button .btn {
+	padding: .5rem 2.5rem !important;
+}
+
+
+
+/*  Testimonial Section    */
+
+.testimonial{
+	width: 100%;
+	background: url(../Files/testimonials-bg.png);
+	text-align: center;
+	background-size: cover;
+	background-position: top center;
+	background-repeat: no-repeat;
+
+}
+
+.testimonial .title h1{
+	color: black;
+	font-size: 30px;
+	font-weight: 400;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+	text-align: center;
+}
+.testimonial .row .title{
+	margin: 90px 0;
+}
+
+.owl-carousel .owl-item img{
+	width: 90px;
+	margin: 30px auto;
+
+}
+.owl-nav{
+	display: none;
+}
+.testimonial .item{
+	font-size: 15px;
+	margin: 20px 250px;
+}
+.testimonial .item .testimonial-details h4{
+	font-size: 16px;
+	font-weight: 400;
+	letter-spacing: 2px;
+}
+.testimonial .item .testimonial-details h6{
+	font-size: 12px;
+	font-weight: 300;
+	letter-spacing: 2px;
+}
+
+
+/*    Contact Me Section     */
+
+.contact-me{
+	width: 100%;
+	background-color: #161616;
+	text-align: center;
+}
+.contact-info{
+	margin: 80px 0;
+}
+.contact-info .title h1{
+	color: white;
+	font-size: 30px;
+	font-weight: 400;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+	text-align: left;
+}
+
+.contact-info .title p{
+	color: white;
+	text-align: left;
+	margin: 20px 0 0px 0;
+}
+.contact-info a{
+	color: white;
+	text-decoration: none;
+	text-align: left;
+	margin-left: -405px;
+}
+.contact-info a:hover{
+	text-decoration: underline;
+}
+
+.contact-info .up p{
+	text-align: left;
+	margin: 0 0 0 0;
+	color: white;
+}
+.contact-info .up a{
+	text-align: left;
+	margin: 0 0 0 0;
+	padding-left: 0px;
+	margin-left: -80px;
+
+}
+.contact-info .down p{
+	text-align: left;
+	margin: 10px 0 0 0;
+	color: white;
+}
+.contact-info .down a{
+	text-align: left;
+	padding-left: 0px !important;
+	margin-left: -80px;
+}
